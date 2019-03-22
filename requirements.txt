@@ -1,5 +1,4 @@
 django>=2.1.7
-django-debug-toolbar>=1.11
 
 django-cms>=3.6,<4
 djangocms-text-ckeditor>=3.7
@@ -22,3 +21,7 @@ fredirc==0.3.0
 pdfminer.six==20181108
 chardet==3.0.4
 phonenumbers==8.10.6
+
+# Dev dependencies
+django-debug-toolbar>=1.11
+pre-commit>=1.14.4
